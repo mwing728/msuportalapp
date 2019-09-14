@@ -9,12 +9,12 @@ import teachersApp as teachersFunction
 import datetime
 from flask_socketio import SocketIO
 app = Flask(__name__)
-
+mysql://b693543105bea1:e9b1bf91@us-cdbr-iron-east-02.cleardb.net/heroku_b73dff108c0f588?reconnect=true
 #config mysql
-app.config['MYSQL_HOST'] = 'localhost'
-app.config['MYSQL_USER'] = 'root'
-app.config['MYSQL_PASSWORD'] = ''
-app.config['MYSQL_DB'] = 'MSUPortal'
+app.config['MYSQL_HOST'] = 'us-cdbr-iron-east-02.cleardb.net'
+app.config['MYSQL_USER'] = 'b693543105bea1'
+app.config['MYSQL_PASSWORD'] = 'e9b1bf91'
+app.config['MYSQL_DB'] = 'heroku_b73dff108c0f588'
 app.config['MYSQL_CURSORCLASS'] = 'DictCursor'
 socketio = SocketIO(app)
 #init MySQL
