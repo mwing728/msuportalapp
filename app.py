@@ -9,7 +9,6 @@ import teachersApp as teachersFunction
 import datetime
 from flask_socketio import SocketIO
 app = Flask(__name__)
-mysql://b693543105bea1:e9b1bf91@us-cdbr-iron-east-02.cleardb.net/heroku_b73dff108c0f588?reconnect=true
 #config mysql
 app.config['MYSQL_HOST'] = 'us-cdbr-iron-east-02.cleardb.net'
 app.config['MYSQL_USER'] = 'b693543105bea1'
