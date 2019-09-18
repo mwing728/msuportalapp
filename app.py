@@ -27,7 +27,7 @@ class QuestionAnswerForm(Form):
 
 #index route
 
-@app.route('/', methods=['GET'])
+@app.route('/', methods=['GET', 'POST'])
 def index():
 	return loginFunction.login()
 
